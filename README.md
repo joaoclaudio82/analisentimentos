@@ -1,6 +1,6 @@
 # Análise de Sentimentos com MCP e GoEmotions
 
-Projeto didático que expõe um servidor [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol) para classificação de emoções com o modelo **GoEmotions** (28 categorias). Inclui um cliente de exemplo que consome as ferramentas MCP diretamente e integra a análise com um resumo gerado pela API da OpenAI.
+Projeto  que expõe um servidor [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol) para classificação de emoções com o modelo **GoEmotions** (28 categorias). Inclui um cliente de exemplo que consome as ferramentas MCP diretamente e integra a análise com um resumo gerado pela API da OpenAI.
 
 ## Visão Geral
 
