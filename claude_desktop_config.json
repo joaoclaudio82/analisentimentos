@@ -1,0 +1,33 @@
+{
+  "mcpServers": {
+    "analise-sentimentos": {
+      "command": "/Users/dgvercosa/.local/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/dgvercosa/Desktop/MCPs na Prática/scripts",
+        "run",
+        "15_servidor_sentimentos.py"
+      ],
+      "description": "Servidor MCP que analisa sentimentos usando o dataset GoEmotions do Google com 28 emoções diferentes (admiration, amusement, anger, annoyance, approval, caring, confusion, curiosity, desire, disappointment, disapproval, disgust, embarrassment, excitement, fear, gratitude, grief, joy, love, nervousness, optimism, pride, realization, relief, remorse, sadness, surprise, neutral)."
+    },
+    "busca-wikipedia": {
+      "command": "/Users/dgvercosa/.local/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/dgvercosa/Desktop/MCPs na Prática/scripts",
+        "run",
+        "11_servidor_claude_stdio.py"
+      ],
+      "description": "Um servidor MCP local que faz buscas na wikipedia e retorna o resumo de um artigo."
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/dgvercosa/Desktop/",
+        "/Users/dgvercosa/Downloads/"
+      ]
+    }
+  }
+}
